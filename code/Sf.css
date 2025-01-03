@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; /* Apply Poppins font globally */
+  font-family: 'Poppins', sans-serif; 
   scroll-behavior: smooth;
 }
 
@@ -24,7 +24,7 @@ body {
 /* Container with border */
 .container {
   padding: 0 5%;
-  border: 1px solid ed; /* Fix the invalid color code */
+  border: 1px solid ed; 
 }
 
 /* Home Section */
@@ -385,7 +385,7 @@ footer {
   }
 
   .Project .container {
-    grid-template-columns: 1fr; /* Stack projects vertically */
+    grid-template-columns: 1fr; 
   }
 
   footer {

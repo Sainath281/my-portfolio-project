@@ -9,12 +9,12 @@
 
 /* Styling for Back to Main Page Button */
 .back-to-main {
-    display: flex;               /* Use Flexbox */
-    justify-content: center;     /* Center horizontally */
-    align-items: center;         /* Center vertically */
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
     margin-bottom: 40px; 
-    margin-left: 50%;        /* Space below the button */
-    height: 80px;                /* Ensure the container has enough height */
+    margin-left: 50%;        
+    height: 80px;               
     width: 100%;  
 }
 
@@ -56,7 +56,7 @@ body {
 /* Container for cards */
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* 2 columns for larger screens */
+    grid-template-columns: repeat(2, 1fr);  
     gap: 30px;
     padding: 0 10%;
 }
@@ -123,13 +123,13 @@ body {
 /* Media Query for Tablet (screen width 768px and below) */
 @media (max-width: 768px) {
     .container {
-        grid-template-columns: repeat(2, 1fr);  /* 2 columns for tablets */
+        grid-template-columns: repeat(2, 1fr);  
     }
 }
 
 /* Media Query for Mobile (screen width 480px and below) */
 @media (max-width: 480px) {
     .container {
-        grid-template-columns: 1fr;  /* 1 column for mobile */
+        grid-template-columns: 1fr;  
     }
 }
